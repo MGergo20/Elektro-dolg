@@ -8,6 +8,8 @@ eredmeny=feladat.masodperc(125)
 print(f"   125mp --> {eredmeny}")
 eredmeny=feladat.masodperc(3672)
 print(f"  3672mp --> {eredmeny}")
+eredmeny=feladat.masodperc(11502)
+print(f" 11502mp --> {eredmeny}")
 
 
 masodpercek_szamolas=feladat.osszes_masodperc(0, 0, 59)
