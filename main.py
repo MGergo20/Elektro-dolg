@@ -1,4 +1,5 @@
-import feladat
+import feladat, auto, autom
+
 
 eredmeny=feladat.masodperc(59)
 print(f"    59mp --> {eredmeny}")
@@ -20,3 +21,14 @@ masodpercek_szamolas=feladat.osszes_masodperc(0,2,5)
 print(f"0ó, 2p, 5mp -->  {masodpercek_szamolas}mp")
 masodpercek_szamolas=feladat.osszes_masodperc(1,1,12)
 print(f"1ó, 1p,12mp --> {masodpercek_szamolas}mp", )
+
+
+print("Autok világa!")
+
+autok = autom.beolvas("autok.txt")
+print(f"Autók száma: {autom.flotta(autok)}.")
+
+
+atlag_kor= autom.atlageletkor(autok)
+print(f"Az autók átlagéletkora: {atlag_kor:.0f} év.")
+
