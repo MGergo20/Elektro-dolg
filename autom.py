@@ -12,5 +12,12 @@ def beolvas(fajlnev):
 def flotta(autok):
     return len(autok)
 
-def atlageletkor(autok, ):
-    
+def atlageletkor(autok, ev=2025):
+    osszeg = 0
+    szamlalo = 0
+    for auto in autok:
+        osszeg += ev - auto.gyartasi_ev  
+        szamlalo += 1  
+    if szamlalo == 0:  
+        return 0
+    return osszeg / szamlalo  

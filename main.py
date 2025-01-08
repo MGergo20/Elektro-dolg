@@ -28,7 +28,5 @@ print("Autok világa!")
 autok = autom.beolvas("autok.txt")
 print(f"Autók száma: {autom.flotta(autok)}.")
 
-
-atlag_kor= autom.atlageletkor(autok)
+atlag_kor = autom.atlageletkor(autok)
 print(f"Az autók átlagéletkora: {atlag_kor:.0f} év.")
-
